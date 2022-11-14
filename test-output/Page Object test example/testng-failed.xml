@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="http://localhost:3000/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="sample test(failed)">
+    <classes>
+      <class name="FullStackLab.SignInPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySignInFunction"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FullStackLab.SignInPageTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
